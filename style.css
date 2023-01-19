@@ -1,0 +1,73 @@
+html {
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    line-height: -10px;
+}
+footer {
+    line-height: -10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 0px;
+    padding: 0%;
+    margin: 12px;
+}
+
+i { 
+    color: white;
+}
+
+i2 {
+    color: white;
+    float: right;
+}
+
+i3 {
+    color: #0197f6;
+}
+i4 {
+    color: yellow;
+}
+
+div {
+    text-align: center;
+}
+
+.box {
+    float: left;
+    font-size: 25px;
+    width: 75px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+}
+.box2 {
+    float: left;
+    font-size: 25px;
+    width: 75px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
