@@ -1,16 +1,24 @@
 html {
-    background: url(background.jpg) no-repeat center center fixed;
+    font-family: sans-serif;
+    background: url(background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    opacity: 1;
 }
 
 header {
     line-height: -10px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 footer {
     line-height: -10px;
+    margin-top: auto;
 }
 
 h1 {
@@ -25,13 +33,31 @@ p {
     line-height: 0px;
     padding: 0%;
     margin: 12px;
+    text-shadow:
+            0.03em 0 black,
+            0 0.03em black,
+            -0.03em 0 black,
+            0 -0.03em black,
+            -0.03em -0.03em black,
+            -0.03em 0.03em black,
+            0.03em -0.03em black,
+            0.03em 0.03em black;
 }
 
 i { 
     color: white;
 }
 
+i1 {
+    margin-top: 4px;
+    margin-left: 4px;
+    color: white;
+    float: left;
+}
+
 i2 {
+    margin-top: 4px;
+    margin-right: 4px;
     color: white;
     float: right;
 }
@@ -45,6 +71,7 @@ i4 {
 
 div {
     text-align: center;
+    opacity: 1 !important;
 }
 
 .box {
@@ -55,16 +82,34 @@ div {
     margin-top: 10px;
     color: white;
     padding: 5px;
+    text-shadow:
+            0.03em 0 black,
+            0 0.03em black,
+            -0.03em 0 black,
+            0 -0.03em black,
+            -0.03em -0.03em black,
+            -0.03em 0.03em black,
+            0.03em -0.03em black,
+            0.03em 0.03em black;
 }
 .box2 {
-    float: left;
     font-size: 25px;
     width: 75px;
     text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: auto;
+    margin-top: 0px;
     color: white;
-    padding: 25px;
+    padding: 35px;
+    text-shadow:
+            0.03em 0 black,
+            0 0.03em black,
+            -0.03em 0 black,
+            0 -0.03em black,
+            -0.03em -0.03em black,
+            -0.03em 0.03em black,
+            0.03em -0.03em black,
+            0.03em 0.03em black;
+    display: table;
 }
 
 .center {
